@@ -377,3 +377,32 @@ main.cv {
   display: inline-block;
   margin-top: .5rem;
 }
+/* === FIX TRYHACKME IFRAME SCROLLBAR === */
+
+.platform {
+  overflow-x: hidden; /* coupe toute scrollbar parasite */
+}
+
+.thm-badge {
+  display: flex;
+  flex-direction: column;   /* iframe puis lien en dessous */
+  align-items: center;
+  gap: .6rem;
+}
+
+.thm-badge iframe {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 140px;
+  min-height: 140px;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* lien centré sous l'iframe */
+.thm-badge a {
+  display: inline-block;
+  white-space: nowrap; /* évite les micro débordements */
+}

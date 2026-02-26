@@ -101,41 +101,61 @@
       </aside>
     </section>
 
-    <!-- PROFIL -->
-    <section id="about" class="section" aria-label="Profil">
-      <div class="section-head">
-        <div class="section-ico" aria-hidden="true">👤</div>
-        <div>
-          <h2>Profil</h2>
-          <p class="muted">Positionnement & livrables</p>
+    <!-- ✅ PROFIL -->
+    <article class="card ui-card">
+      <div class="card-head">
+        <span class="card-ico" aria-hidden="true">👤</span>
+        <h3>Profil & compétences</h3>
+      </div>
+
+      <p class="muted">
+        <strong>Polyvalent SOC / Blue Team & Gouvernance SSI (GRC)</strong> :
+        je sais traiter des alertes, structurer la réponse à incident, améliorer la posture
+        de sécurité (gestion des vulnérabilités), et contribuer à la mise en œuvre de mesures
+        organisationnelles (PSSI, sensibilisation, procédures).
+      </p>
+
+      <p class="muted">
+        Je réalise également des <strong>labs et CTF</strong> sur des plateformes en ligne afin
+        de renforcer mes compétences techniques et opérationnelles.
+      </p>
+
+      <!-- 🔐 PLATEFORMES CTF -->
+      <div class="profile-platforms">
+
+        <!-- TRYHACKME -->
+        <div class="platform">
+          <h4>🏆 TryHackMe</h4>
+
+          <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3120795"
+            title="TryHackMe public profile badge" loading="lazy">
+          </iframe>
+
+          <a href="https://tryhackme.com/p/FlowzSylvz" target="_blank" rel="noopener">
+            🔗 Voir le profil
+          </a>
         </div>
-      </div>
 
-      <div class="grid-2">
-        <article class="card ui-card">
-          <div class="card-head">
-            <span class="card-ico" aria-hidden="true">🎯</span>
-            <h3>Positionnement</h3>
-          </div>
+        <!-- ROOT-ME -->
+        <div class="platform">
+          <h4>🎯 Root‑Me</h4>
+
+          <a href="https://www.root-me.org/Sylvz" target="_blank" rel="noopener">
+            <img src="assets/img/badges/rootme.png" alt="Root-Me profile badge">
+          </a>
+
           <p class="muted">
-            Polyvalent SOC / Blue Team &amp; Gouvernance SSI (GRC) : je sais traiter des alertes,
-            structurer la réponse, améliorer la posture (vulnérabilités), et contribuer à la
-            mise en œuvre de mesures (PSSI, sensibilisation, procédures).
+            Score : <strong>265</strong><br>
+            Rang : <strong>curious &lt; 500 pts</strong>
           </p>
-        </article>
 
-        <article class="card ui-card">
-          <div class="card-head">
-            <span class="card-ico" aria-hidden="true">📦</span>
-            <h3>Ce que j’aime livrer</h3>
-          </div>
-          <ul class="clean">
-            <li>Détection &amp; supervision : log pipelines, dashboards, alerting</li>
-            <li>Process &amp; documentation : fiches réflexes, procédures, traçabilité</li>
-          </ul>
-        </article>
+          <a href="https://www.root-me.org/Sylvz" target="_blank" rel="noopener">
+            🔗 Voir le profil
+          </a>
+        </div>
+
       </div>
-    </section>
+    </article>
 
     <!-- COMPÉTENCES -->
     <section id="skills" class="section" aria-label="Compétences">
@@ -457,7 +477,7 @@
       <div class="section-head">
         <div class="section-ico" aria-hidden="true">✅</div>
         <div>
-          <h2>Licences & Certifications</h2>
+          <h2>Attestations & Certifications</h2>
           <p class="muted">Badges officiels & vérification publique</p>
         </div>
       </div>
@@ -545,91 +565,37 @@
           </p>
         </article>
 
-        <!-- ✅ TRYHACKME PROFILE -->
-        <article class="card ui-card">
-          <div class="card-head">
-            <span class="card-ico" aria-hidden="true">🏆</span>
-            <h3>TryHackMe — Profile</h3>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section" aria-label="Contact">
+          <div class="section-head">
+            <div class="section-ico" aria-hidden="true">✉️</div>
+            <div>
+              <h2>Contact</h2>
+              <p class="muted">Échange / opportunités</p>
+            </div>
           </div>
 
-          <a href="https://tryhackme.com/p/FlowzSylvz" target="_blank" rel="noopener"
-            aria-label="Voir le profil TryHackMe">
-
-            <img src="assets/img/badges/logoFlowz.png" alt="TryHackMe Profile Badge"
-              style="max-width:180px; display:block; margin:12px auto;" />
-          </a>
-
-          <p class="muted" style="text-align:center;">
-            Level : <strong>0x6 [Voyager]
-              ≥ 2,000 points
-
-            </strong><br>
-            Classement : <strong>Top 20%</strong>
-          </p>
-
-          <p style="text-align:center;">
-            <a href="https://tryhackme.com/p/FlowzSylvz" target="_blank" rel="noopener">
-              🔗 Voir le profil
-            </a>
-          </p>
-        </article>
-
-
-        <!-- ✅ ROOT-ME -->
-        <article class="card ui-card">
-          <div class="card-head">
-            <span class="card-ico" aria-hidden="true">🎯</span>
-            <h3>Root‑Me — Profile </h3>
+          <div class="card ui-card">
+            <p style="margin-top:0;">
+              Pour une opportunité en <strong>SOC / Blue Team</strong>, <strong>GRC</strong>, ou cybersécurité au sens
+              large
+              :
+            </p>
+            <div class="actions">
+              <a class="btn btn-sm" href="mailto:florian.magloire@proton.me">M’écrire</a>
+              <a class="btn btn-ghost btn-sm" href="https://www.linkedin.com/in/florian-magloire/" target="_blank"
+                rel="noopener">LinkedIn</a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/Flomgl" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn btn-ghost btn-sm" href="assets/docs/CV_Florian_MAGLOIRE.pdf" target="_blank"
+                rel="noopener">CV
+                (PDF)</a>
+            </div>
+            <p class="muted" style="margin-bottom:0;">
+              Email : <a href="mailto:florian.magloire@proton.me">florian.magloire@proton.me</a>
+            </p>
           </div>
-
-          <a href="https://www.root-me.org/Sylvz" target="_blank" rel="noopener">
-            <img src="assets/img/badges/rootme.png" alt="Root-Me profile badge"
-              style="max-width:160px; display:block; margin:12px auto;">
-          </a>
-
-          <p class="muted" style="text-align:center;">
-            Score : <strong>265</strong><br>
-            Classement : <strong>curious	< 500 points</strong>
-          </p>
-
-          <p style="text-align:center;">
-            <a href="https://www.root-me.org/Sylvz" target="_blank" rel="noopener">
-              🔗 Voir le profil Root‑Me
-            </a>
-          </p>
-        </article>
-      </div>
-
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section" aria-label="Contact">
-      <div class="section-head">
-        <div class="section-ico" aria-hidden="true">✉️</div>
-        <div>
-          <h2>Contact</h2>
-          <p class="muted">Échange / opportunités</p>
-        </div>
-      </div>
-
-      <div class="card ui-card">
-        <p style="margin-top:0;">
-          Pour une opportunité en <strong>SOC / Blue Team</strong>, <strong>GRC</strong>, ou cybersécurité au sens large
-          :
-        </p>
-        <div class="actions">
-          <a class="btn btn-sm" href="mailto:florian.magloire@proton.me">M’écrire</a>
-          <a class="btn btn-ghost btn-sm" href="https://www.linkedin.com/in/florian-magloire/" target="_blank"
-            rel="noopener">LinkedIn</a>
-          <a class="btn btn-ghost btn-sm" href="https://github.com/Flomgl" target="_blank" rel="noopener">GitHub</a>
-          <a class="btn btn-ghost btn-sm" href="assets/docs/CV_Florian_MAGLOIRE.pdf" target="_blank" rel="noopener">CV
-            (PDF)</a>
-        </div>
-        <p class="muted" style="margin-bottom:0;">
-          Email : <a href="mailto:florian.magloire@proton.me">florian.magloire@proton.me</a>
-        </p>
-      </div>
-    </section>
+        </section>
 
   </main>
 

@@ -339,3 +339,41 @@ main.cv {
   font-weight: 700;
   margin-top: 2px;
 }
+
+/* Test */
+.profile-platforms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.platform {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+}
+
+.platform h4 {
+  margin-bottom: .75rem;
+}
+
+.platform iframe {
+  border: none;
+  width: 100%;
+  max-width: 320px;
+  height: 140px;
+  border-radius: 8px;
+}
+
+.platform img {
+  max-width: 160px;
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.platform a {
+  display: inline-block;
+  margin-top: .5rem;
+}
